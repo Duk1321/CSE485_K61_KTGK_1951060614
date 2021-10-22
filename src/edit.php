@@ -58,8 +58,40 @@
             <input type="date" id="start" name="txtDate" value="<?php echo $date ?>">
         </div>
         <div class="mb-3">
-            <label class="form-label">Trạng thái</label>
-            <input type="text" class="form-control" id="txtStatus" name="txtStatus" value="<?php echo  $status ?>">
+            <label class="form-label">Trạng thái: </label>
+            <select name="txtStatus">
+                <?php
+                if($status == "Pending"){
+                    echo 
+                        '   <option value="Pending" selected>Pending</option>
+                            <option value="Created">Created</option>
+                            <option value="Started">Started</option>
+                            <option value="Completed">Completed</option>';
+                }
+                if($status == "Created"){
+                    echo 
+                        '   <option value="Pending">Pending</option>
+                            <option value="Created" selected>Created</option>
+                            <option value="Started">Started</option>
+                            <option value="Completed">Completed</option>';
+                }
+                if($status == "Started"){
+                    echo 
+                        '   <option value="Pending">Pending</option>
+                            <option value="Created">Created</option>
+                            <option value="Started" selected>Started</option>
+                            <option value="Completed">Completed</option>';
+                }
+                if($status == "Completed"){
+                    echo 
+                        '   <option value="Pending">Pending</option>
+                            <option value="Created">Created</option>
+                            <option value="Started">Started</option>
+                            <option value="Completed"  selected>Completed</option>';
+                }
+                ?>
+                
+            </select>
         </div>
         <div class="mb-3">
             <label class="form-label">Mã bài thi</label>
