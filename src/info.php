@@ -12,6 +12,7 @@
 </div>
 
 
+
 <div class="container pt-5">
     <table class="table">
         <thead>
@@ -49,7 +50,7 @@
                             '<td>
                                 <form>
                                     <a href="./edit.php?id='.$row['id'].'"><button type="button" class="btn btn-success">Chỉnh sửa</button></a>
-                                    <button type="button" class="btn btn-danger">Xóa</button>
+                                    <a href="./delete.php?id='.$row['id'].'"><button type="button" class="btn btn-danger">Xóa</button></a>
                                 </form>
                             </td>';
                         echo '</tr>';
