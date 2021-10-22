@@ -30,7 +30,15 @@
         </div>
         <div class="mb-3">
             <label class="form-label">Trạng thái</label>
-            <input type="text" class="form-control" id="txtStatus" name="txtStatus">
+            <!-- <input type="text" class="form-control" id="txtStatus" name="txtStatus"> -->
+            <div class="col-sm-10">
+            <select name="txtStatus">
+                <option value="Pending">Pending</option>
+                <option value="Created">Created</option>
+                <option value="Started">Started</option>
+                <option value="Completed">Completed</option>
+            </select>
+            </div>
         </div>
         <div class="mb-3">
             <label class="form-label">Mã bài thi</label>
