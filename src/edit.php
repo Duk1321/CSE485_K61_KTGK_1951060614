@@ -27,7 +27,11 @@
     <h1 class="text-center bg-dark text-light">Thông tin của người hiến máu</h1>
 </div>
 <div class="container pt-5">
-    <form action="process_add.php" method="POST">
+    <form action="update.php" method="POST">
+    <div class="mb-3">
+            <label class="form-label">ID</label>
+            <input type="text" class="form-control" id="txtID" name="txtID" value="<?php echo $id ?>" readonly>
+        </div>
         <div class="mb-3">
             <label class="form-label">Tên bài thi</label>
             <input type="text" class="form-control" id="txtName" name="txtExamName" value="<?php echo $exam_title ?>">

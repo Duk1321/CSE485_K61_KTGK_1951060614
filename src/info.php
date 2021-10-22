@@ -48,7 +48,7 @@
                             echo 
                             '<td>
                                 <form>
-                                    <a href="./edit.php?id='.$_GET['id'].'"><button type="button" class="btn btn-success">Chỉnh sửa</button></a>
+                                    <a href="./edit.php?id='.$row['id'].'"><button type="button" class="btn btn-success">Chỉnh sửa</button></a>
                                     <button type="button" class="btn btn-danger">Xóa</button>
                                 </form>
                             </td>';
