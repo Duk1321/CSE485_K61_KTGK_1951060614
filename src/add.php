@@ -14,7 +14,7 @@
         </div>
         <div class="mb-3">
             <label class="form-label">Ngày thi</label>
-            <input type="text" class="form-control" id="txtE_Date" name="txtE_Date">
+            <input type="datetime-local" id="input_date_on" name="input_date_on">
         </div>
         <div class="mb-3">
             <label class="form-label">Thời gian làm bài</label>

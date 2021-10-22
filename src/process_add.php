@@ -1,6 +1,6 @@
 <?php
     $exam_title = $_POST['txtExamName'];
-    $exam_date = $_POST['txtE_Date'];
+    $exam_date = $_POST['input_date_on'];
     $time = $_POST['txtDuration'];
     $question = $_POST['txtQuestion'];
     $score = $_POST['txtScore'];
