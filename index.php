@@ -1,6 +1,10 @@
 <?php
-    $conn = mysqli_connect('localhost','root','','22102021');
-    if(!$conn){
-        die('Không thể kết nối');
-    }
+        include './reuse/header.php';
+        include './reuse/connect.php';
+?>
+
+
+
+<?php
+        include './reuse/footer.php';
 ?>
