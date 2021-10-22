@@ -24,7 +24,7 @@
 ?>
 
 <div class="container">
-    <h1 class="text-center bg-dark text-light">Thông tin của người hiến máu</h1>
+    <h1 class="text-center bg-dark text-light">CHỈNH SỬA BÀI THI</h1>
 </div>
 <div class="container pt-5">
     <form action="update.php" method="POST">
