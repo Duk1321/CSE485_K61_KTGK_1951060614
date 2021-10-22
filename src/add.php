@@ -1,6 +1,6 @@
 <?php
-        include './reuse/header.php';
-        include './reuse/connect.php';
+        include '../reuse/header.php';
+        include '../reuse/connect.php';
 ?>
 
 <div class="container">
@@ -51,5 +51,5 @@
 </div>
 
 <?php
-        include './reuse/footer.php';
+        include '../reuse/footer.php';
 ?>

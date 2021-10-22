@@ -8,7 +8,7 @@
 </div>
 
 <div class="container pt-5">
-    <a href="add.php"><button type="button" class="btn btn-success">Thêm</button></a>
+    <a href="./src/add.php"><button type="button" class="btn btn-success">Thêm</button></a>
 </div>
 
 
@@ -38,7 +38,7 @@
                             echo '<tr>';
                             echo '<td>'.$row['id'].'</td>';
                             echo '<td>'.$row['exam_title'].'</td>';
-                            echo '<td><a href="info.php?id='.$row['id'].'">Xem chi tiết</a></td>';
+                            echo '<td><a href="src/info.php?id='.$row['id'].'">Xem chi tiết</a></td>';
                         echo '</tr>';
                         }
                     }
