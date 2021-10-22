@@ -7,7 +7,7 @@
     <h1 class="text-center bg-dark text-light">THÊM BÀI</h1>
 </div>
 <div class="container pt-5">
-    <form action="" method="POST">
+    <form action="process_add.php" method="POST">
         <div class="mb-3">
             <label class="form-label">Tên bài thi</label>
             <input type="text" class="form-control" id="txtName" name="txtExamName">
@@ -30,17 +30,7 @@
         </div>
         <div class="mb-3">
             <label class="form-label">Trạng thái</label>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Action</button></li>
-                    <li><button class="dropdown-item" type="button">Another action</button></li>
-                    <li><button class="dropdown-item" type="button">Something else here</button></li>
-                </ul>
-            </div>
+            <input type="text" class="form-control" id="txtStatus" name="txtStatus">
         </div>
         <div class="mb-3">
             <label class="form-label">Mã bài thi</label>
