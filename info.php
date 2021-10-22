@@ -8,7 +8,7 @@
 </div>
 
 <div class="container pt-5">
-    <button type="button" class="btn btn-success">Thêm</button>
+    <a href="add.php"><button type="button" class="btn btn-success">Thêm</button></a>
 </div>
 
 
